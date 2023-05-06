@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Travel Buddy 2.0
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A rehash of a previous travelbuddy design built with react.js and the django framework
 
-## Available Scripts
+## Mock design 
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### User story
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+// As a traveler I want to be able to view the top rated dining options for the places that I travel to as well as be able to log my travel checklist so that I don’t forget anything going to a new location or coming back.
 
-### `npm test`
+//As a local I want to be able to view the best dining options  by my fellow locals as well as give my own opinion on eatery recommendations 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+// As a user I want to be to create a checklist of my own needs as well as use already curated checklist to make my life easier
 
-### `npm run build`
+### `Future Improvements`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+//Connect an USA states api and create a states key within my model so that i can access different states and get data based on the state 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+//Add a index page that just lists all the states possibly through pagination so that users can select whcih state they would like to select from initially 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+//create an activites model that follow the food model but just uses best activites to do within each state
 
-### `npm run eject`
+//create a Todo List so that users can add stuff from the food and activiites model to a todo list model as well as add their own stuff so that the can better recall what they want to do 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+//Add Google maps api so that users can have acces to directions from the locations listed in the cards 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+//If maps api doesnt pan out add a website key to the model so users can go to stores website to see the menu or have a direct link to the menu 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Resources
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+https://reactstrap.github.io/?path=/docs/home-installation--page
 
-## Learn More
+https://stackoverflow.com/questions/18552846/no-web-processes-running-django-in-heroku
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+https://www.youtube.com/watch?v=JwJfR0mtnCE
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+https://getbootstrap.com/docs/5.3/getting-started/introduction/
 
-### Code Splitting
+https://learn.shayhowe.com/advanced-html-css/css-transforms/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+https://react.dev/learn
 
-### Analyzing the Bundle Size
+https://github.com/reactstrap/reactstrap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+https://stackoverflow.com/questions/51577441/how-to-seed-django-project-insert-a-bunch-of-data-into-the-project-for-initi
 
-### Making a Progressive Web App
+https://docs.djangoproject.com/en/4.2/howto/initial-data/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://developers.google.com/maps/documentation/routes
