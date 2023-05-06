@@ -1,5 +1,4 @@
-import React, { useMemo, useState } from "react";
-import { Link, useNavigate, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "../components/header.js";
 import FoodCard from "../components/FoodCard"
