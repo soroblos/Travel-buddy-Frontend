@@ -4,6 +4,7 @@ A rehash of a previous travelbuddy design built with react.js and the django fra
 
 ## Mock design 
 
+<img width="574" alt="Screen Shot 2023-02-12 at 6 32 34 PM" src="https://user-images.githubusercontent.com/117701388/236612833-8f19f39c-f20e-453f-878b-0a7fdb7fad6f.png">
 
 
 ### User story
