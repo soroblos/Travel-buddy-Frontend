@@ -3,7 +3,7 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "../components/header.js";
 import FoodCard from "../components/FoodCard"
-import { Button, Card, CardBody, Row, Modal, CardTitle, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Button, Row } from 'reactstrap';
 
 
 const Main = (props) => {

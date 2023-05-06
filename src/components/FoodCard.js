@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import { Card, CardImg, CardTitle, CardBody, Button, CardGroup, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 import { useNavigate } from "react-router-dom";
 
@@ -37,7 +36,7 @@ const FoodCard = ({ item, deleteFood }) => {
                             <Modal isOpen={modal} toggle={toggle} {...item}>
                                 <ModalHeader toggle={toggle}>{item.name}</ModalHeader>
                                 <ModalBody>
-                                    <img src={item.img} style={{ width: '100%', height: "200px", objectFit: "cover" }} />
+                                    <img src={item.img} alt={item.name} style={{ width: '100%', height: "200px", objectFit: "cover" }} />
                                     <div style={{ marginTop: '10px' }}>
                                         {item.location}
                                     </div>

@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useMemo, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { Card, CardBody, CardTitle, Button, CardFooter, CardGroup } from "reactstrap";
+import { Card, CardBody, CardTitle } from "reactstrap";
 
 
 
